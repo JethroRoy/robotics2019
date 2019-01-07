@@ -163,6 +163,12 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * Dimsav Laravel Translations
+         */
+
+        Dimsav\Translatable\TranslatableServiceProvider::class,
+
+        /*
          * Package Service Providers...
          */
 
