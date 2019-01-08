@@ -1,1 +1,8 @@
-<p>gallery</p>
+
+@extends ('layouts.master')
+
+@section('content')
+
+    <p>gallery</p>
+
+@endsection

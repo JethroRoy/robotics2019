@@ -1,1 +1,8 @@
-<p>tutorial</p>
+
+@extends ('layouts.master')
+
+@section('content')
+
+    <p>tutorial</p>
+
+@endsection
