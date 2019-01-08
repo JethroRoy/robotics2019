@@ -1,1 +1,8 @@
-<p>journalism</p>
+
+@extends ('layouts.master')
+
+@section('content')
+
+    <p>journalism</p>
+
+@endsection

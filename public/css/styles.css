@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: "MIB Font";
+    src: url(mib.ttf) format("truetype");
+}
+.mib-font {
+    font-family: "MIB Font", Verdana, Tahoma;
+}
+
+.nav-text {
+    font-size: 90px;
+    color : blue;
+}

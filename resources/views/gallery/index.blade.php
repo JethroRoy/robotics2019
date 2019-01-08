@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -40,3 +41,13 @@
 
 
 
+=======
+
+@extends ('layouts.master')
+
+@section('content')
+
+    <p>gallery</p>
+
+@endsection
+>>>>>>> ed3ff1b3fe1f2a55a134eaf8fc29bfafd02b9d9d
