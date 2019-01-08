@@ -4,7 +4,7 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="/">MIB Robotics</a>
         </div>
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav mib-font nav-text">
             <li><a href="/vanier">Vanier</a></li>
             <li><a href="/team">Team</a></li>
             <li><a href="/robot">Robot</a></li>
