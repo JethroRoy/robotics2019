@@ -1,42 +1,24 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
+@extends ('layouts.master')
 
+@section('content')
 
-	<title>Gallery</title>
-
-<style>
-	body {
-		/*background-image: url('https://static.gamespot.com/uploads/screen_medium/1179/11799911/3471748-screen+shot+2018-12-06+at+3.20.53+pm.png');*/
-		background-repeat: no-repeat;
-	}
-
-
-	
-</style>
-</head>
-<body>
-	<div>
-		<img src="{{asset('default.png')}}" alt="huh?"/>
+   <div>
+		<img src='/../resources/images/gallery/default.png' alt="huh?"/>
 		<?php
-
-			$files = glob('../resources/images/gallery/*.{jpg,png,gif}', GLOB_BRACE);
+		//$path = "{{asset('/default.png')}}";
+		 
+		$files = glob('../resources/images/gallery/*.{jpg,png,gif}', GLOB_BRACE);
 		//$files = scandir('../resources/images/gallery');
-			
-			foreach($files as $file) {
-			 print("<img src='default.png' />");
-			}
+		//var_dump($files);
+			//var_dump($files[2]);
+			//foreach($files as $file) {
+			 	print("<img src='/../resources/default.png' />");
+
+			//}
+
+
+
+
 		?>
 	</div>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
+@endsection
