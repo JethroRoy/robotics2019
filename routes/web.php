@@ -11,19 +11,21 @@
 |
 */
 
+Route::redirect('/', '/en/home');
+Route::redirect('/en/', '/en/home');
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('/en/home', 'HomeController@index')->name('home');
 
-Route::get('/vanier', 'VanierController@index')->name('vanier');
+Route::get('/en/vanier', 'VanierController@index')->name('vanier');
 
-Route::get('/robot', 'RobotController@index')->name('robot');
+Route::get('/en/robot', 'RobotController@index')->name('robot');
 
-Route::get('/team', 'TeamController@index')->name('team');
+Route::get('/en/team', 'TeamController@index')->name('team');
 
-Route::get('/game', 'GameController@index')->name('game');
+Route::get('/en/game', 'GameController@index')->name('game');
 
-Route::get('/journalism', 'JournalismController@index')->name('journalism');
+Route::get('/en/journalism', 'JournalismController@index')->name('journalism');
 
-Route::get('/gallery', 'GalleryController@index')->name('gallery');
+Route::get('/en/gallery', 'GalleryController@index')->name('gallery');
 
-Route::get('/tutorial', 'TutorialController@index')->name('tutorial');
+Route::get('/en/tutorial', 'TutorialController@index')->name('tutorial');
