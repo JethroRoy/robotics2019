@@ -4,17 +4,13 @@
 
 <?php 
 	$arr = ["hi", "there", "amiga"]; 
-	$files = glob('./images/gallery/*.{jpg,png,gif}', GLOB_BRACE);
-	// @foreach($files as $file)
-	//<img src='{{$file}}'/>
-	//@endforeach
+	$files = glob('./images/gallery/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+	
 ?>
-	<div class="scrollable">
-	 @for($i = 0; $i < 100; $i++)
-	 	
-	  		<img src='./images/gallery/default1.jpeg' class="image" style="width: 230px; height: 170px; border: 8px groove gray; margin: 15px;"/>
-	 
-	  @endfor
+	<div class="gallery scrollable">
+	 @foreach($files as $file)	 	
+	  	<img src='{{$file}}' class="image"/>	 
+	 @endforeach
 	</div>
 	<div class="viewer">
 		<button class="close" type="button" aria-hidden="true">×</button>
@@ -29,11 +25,24 @@
 		background-size: 100% 200%; 
 	}
 
+	.gallery {
+		width: 100%;
+	}
 	.scrollable {
         float:left;
         height: 80%;
-		overflow-y: scroll;		
+		overflow-y: auto;		
 		padding: 20px;
+     }
+
+     .image {
+     	width: 230px;
+		 height: 170px;
+		  border: 8px groove gray; margin: 15px;
+     }
+
+     .image:hover {
+     	border-color: white;
      }
 
      .viewer {
@@ -51,7 +60,10 @@
      	top: 20%;
      	left: 25%;
 		position: fixed;
+
      }
+
+     
 
      .close {
      	top: 5px;
@@ -85,30 +97,6 @@
 			$('.close').click(function(){
 				modal.hide();
 			});
-			/*var path = $(this).attr('src');
-
-			var img = $('<img/>');
-			img.attr('src', path);
-
-			var close = $('<button></button>');
-			close.html('&times;');
-			close.addClass('close');
-			close.attr('type', 'button');
-			close.attr('aria-hidden', 'true');
-
-			var modal = $('<div></div>');
-			modal.addClass('viewer');
-			modal.append(close);
-			modal.append(img);
-
-			$('body').append(modal);
-
-			$('.close').click(function() {
-				$('.modal').
-			});*/
-
 		});
-
 	});
-
 </script>
