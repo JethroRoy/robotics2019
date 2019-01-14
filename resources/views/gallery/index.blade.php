@@ -60,6 +60,8 @@
      	top: 20%;
      	left: 25%;
 		position: fixed;
+		max-width: 50%;
+		max-height: 63%;
 
      }
 
