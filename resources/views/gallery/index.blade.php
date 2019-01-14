@@ -22,7 +22,7 @@
 	body {
 		background-image: url('./images/mib_bg.png');
 		background-repeat: no-repeat;
-		background-size: 100% 200%; 
+		background-size: 100% 150%; 
 	}
 
 	.gallery {
