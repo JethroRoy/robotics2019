@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Vanier Robotics</title>
-    <link rel="icon" href="/img/favicon.ico">
+    <link rel="icon" href="{{ asset('img/gear.png') }}">
 
     <!-- Fonts -->
 
@@ -18,7 +18,6 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}"/>
     <!-- Javascript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -34,7 +33,7 @@
 </div>
 
 <main role="main" class="container">
-    <h1>Test Men In Black</h1>
+    <h1 style="font-size: 40px">Test Men In Black</h1>
     @yield('content')
 
 </main><!-- /.container -->
