@@ -34,7 +34,6 @@
 </div>
 
 <main role="main" class="container">
-    <h1 style="font-size: 40px">Test Men In Black</h1>
     @yield('content')
 
 </main><!-- /.container -->
