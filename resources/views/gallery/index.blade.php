@@ -1,85 +1,24 @@
 @extends ('layouts.master')
 
 @section('content')
-
+<link href="{{asset('css/gallery_styles.css')}}" rel="stylesheet" type="text/css"/>
 <?php 
-	$files = glob('./images/gallery/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-	
+	$files = glob('img/gallery/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+	//src="{{ asset('img/gear.png') }}"
 ?>
 	<div class="gallery scrollable">
 	 @foreach($files as $file)	 	
-	  	<img src='{{$file}}' class="image"/>	 
+	  	<img src="{{asset($file)}}" class="image"/>	 
 	 @endforeach
 	</div>
 	<div class="viewer">
 		<button class="close" type="button" aria-hidden="true">×</button>
-		<img id="modalImg" src="./images/gallery/default1.jpeg">
+		<img id="modalImg" src="./img/gallery/default1.jpeg">
 	</div>
-
+@endsection
 
 <style>
-	body {
-		background-image: url('./images/mib_bg.png');
-		background-repeat: no-repeat;
-		background-size: 100% 150%; 
-	}
-
-	.gallery {
-		width: 100%;
-	}
-	.scrollable {
-        float:left;
-        height: 80%;
-		overflow-y: auto;		
-		padding: 20px;
-     }
-
-     .image {
-     	width: 230px;
-		 height: 170px;
-		  border: 8px groove gray; margin: 15px;
-     }
-
-     .image:hover {
-     	border-color: white;
-     }
-
-     .viewer {
-		z-index: 1;
-		top: 0;
-		left: 0;
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0,0,0,0.8);
-		display: none;
-     }
-
-     #modalImg {
-     	top: 20%;
-     	left: 25%;
-		position: fixed;
-		max-width: 50%;
-		max-height: 63%;
-
-     }
-
-     
-
-     .close {
-     	top: 5px;
-     	right: 10px;
-     	font-size: 50px !important;
-     	z-index: 5;
-     	font-size: 50px;  
-     	padding: 0;
-	    cursor: pointer;
-	    background: 0 0;
-	    border: 0;
-	    margin-right: 10px;
-	    opacity: 0.5 !important;
-
-	}   	
+ 	
 	     
 
 
@@ -102,4 +41,3 @@
 	});
 </script>
 
-@endsection
