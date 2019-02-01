@@ -13,6 +13,10 @@
             <li><a href="/en/gallery"><div class="nav-text">Gallery</div></a></li>
             <li><a href="/en/tutorial"><div class="nav-text">Tutorial</div></a></li>
         </ul>
+
+        <ul class="nav navbar-nav mib-font nav-text navbar-right">
+            <li><a href="/fr/home"><div class="nav-text">Francais</div></a></li>
+        </ul>
     </div>
 </nav>
 

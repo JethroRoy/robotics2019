@@ -37,7 +37,25 @@
 
 <main role="main" class="container">
 
-   <!-- <img src="{{ asset('img/ufo.png') }}" alt="Ufo" style="margin-top:10%; margin-left:20%" height="50%" width="50%"> -->
+    <div class="home-vanier-div">
+        <a href="/en/vanier" class="home-vanier">VANIER</a>
+    </div>
+    <div class="home-team-div">
+        <a href="/en/team" class="home-team">TEAM</a>
+    </div>
+    <div class="home-robot-div">
+        <a href="/en/robot" class="home-robot">ROBOT</a>
+    </div>
+    <div class="home-gallery-div">
+        <a href="/en/gallery" class="home-gallery">GALLERY</a>
+    </div>
+    <div class="home-journalism-div">
+        <a href="/en/journalism" class="home-journalism">JOURNALISM</a>
+    </div>
+    <div class="home-game-div">
+        <a href="/en/game" class="home-game">GAME</a>
+    </div>
+
 
 </main>
 
