@@ -291,3 +291,46 @@
         text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
     }
 }
+
+.background-gradient {
+    padding-left : 15%;
+    padding-right : 15%;
+    padding-top : 80px;
+    padding-bottom: 80px;
+    background-image: linear-gradient(-90deg, #420000, #000000);
+    color: white;
+    font-family: Verdana;
+
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.4em;
+    line-height: 2em;
+    text-align: justify;
+
+}
+
+.vanier1 {
+    background-image: url(../img/vanier-front.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier2 {
+    background-image: url(../img/mib_bg.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

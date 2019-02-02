@@ -26,7 +26,7 @@
 
 </head>
 
-<body style="height: 100%; overflow: hidden;">
+<body style="height: 100%; overflow: hidden; top: 55px;">
 @include('layouts.navbar')
 <div class="container">
 
@@ -35,7 +35,7 @@
     <img src="{{ asset('img/vanier.jpg') }}" alt="Home img" class="background">
 
 
-<main role="main" class="container">
+<main role="main" class="container" style="margin-top: 55px;">
 
     <div class="home-vanier-div">
         <a href="/en/vanier" class="home-vanier">VANIER</a>
