@@ -292,6 +292,26 @@
     }
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b70000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
+
 .background-gradient {
     padding-left : 15%;
     padding-right : 15%;
@@ -309,6 +329,11 @@
 
 }
 
+.text-title {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
 .vanier1 {
     background-image: url(../img/vanier-front.jpg);
 
@@ -324,6 +349,58 @@
 
 .vanier2 {
     background-image: url(../img/mib_bg.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game1 {
+    background-image: url(../img/game1.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game2 {
+    background-image: url(../img/game2.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game3 {
+    background-image: url(../img/game3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game4 {
+    background-image: url(../img/game4.png);
 
     /* Full height */
     height: 100%;
