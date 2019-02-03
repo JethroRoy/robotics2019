@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}"/>
+    <link rel="stylesheet" href="{{ asset('css/team_styles.css') }}"/>
     <!-- Javascript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -30,14 +30,23 @@
 <div class="fill" >
 
     <div class="blue-ring neon-blue">
-        <div class="member-div">
-            <div class="captain captain-ring">
-                <img class="member" src="{{ asset('img/will2.png') }}" alt="captain">
-                <p class="neon-blue" style="color: #228DFF; font-size: 1.2em;" >Home</p>
+        <?php 
+            $files = glob('img/teams/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+        ?>
+        @foreach($files as $file) 
+            <div class="member">
+                <img class="member-image" src="{{ asset($file) }}" alt="member">
+               
             </div>
-        </div>
+        @endforeach
+
+
+      
     </div>
 </div><!-- /.container -->
+<div class="panel" >
+
+</div>
 
 @include('layouts.footer')
 
