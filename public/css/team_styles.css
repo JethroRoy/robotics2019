@@ -123,6 +123,10 @@
     margin: 2%;
 }
 
-
+#panel-image {
+    width: 95%;
+    margin-top: 20%;
+    border-radius: 50%;
+}
 
 
