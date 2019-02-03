@@ -3,7 +3,7 @@
 
 @section('body')
 
-<div id="selector" style="width:100%;height:100%; margin-top:57px">
+<div id="selector" style="width:100%;height:100%; margin-top:57px;overflow: hidden;">
     <div class="journalism-build" onclick="build()">
         <div class="journalism-text">
             <div class="journalism-title">B<br/>U<br/>I<br/>L<br/>D</div>
@@ -105,21 +105,77 @@
             document.getElementById("selector").innerHTML = '';
             document.getElementById("selector").removeAttribute('style');
 
-            document.getElementById("body").innerHTML = '';
+            var body = document.getElementById('body');
+            body.innerHTML += '<div class="kiosk1"></div>\n' +
+                '\n' +
+                '    <div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> Why MIB? </h1>\n' +
+                '        Men in Black is a movie that originally came out in the 1997 and its popularity led to a sequel in 2002. The franchise hit a rough patch in 2012 with a movie that shall not be named. While trying to come up with themes for this year, news came out about a MIB fourth movie potentially coming out which inspired us to take hold of the opportunity to bring the theme to Vanier.<br/>\n' +
+                '        The Men in Black use very advanced technology in their underground operations in order to fight the war against invading alien races that seek to harm the Earth, while offering protection to those who come peacefully. The strong correlation between the technology in the movie and the innovative spirit of robotics seemed like a perfect fit. The franchise is well known enough to be accessible to the public while also not being a theme that has been overdone over the past few years.\n' +
+                '    </div>\n' +
+                '\n' +
+                '    <div class="kiosk2"></div>\n' +
+                '\n' +
+                '    <div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> Designing the Kiosk </h1>\n' +
+                '        By unanimous vote, the final setup and design concept was the design for K’s apartment as seen in Men in Black 2. The theme is easily recognizable and the layout of the kiosk flows with the functions; the weapon room in the back is for working on the robot and the front is the living room where the presentation can begin. <br/>\n' +
+                '        Thanks to the cabinets in the weapon room, storage is directly implemented into the design and having tools stored in our artillery is coherent with the theme. The space allotted for robot maintenance is two thirds of our space while the presentation area is only one third. The technologically advanced setting is perfect for robot maintenance and having the designated space in the front for casual presentation eliminates crowding while working on the robot between rounds and gives ample room to work safely.<br/>\n' +
+                '        Initially, the doorway was going to be a screen with the wall facade painted or projected to truly capture the scene from which we were inspired. In the movie, the wall of the apartment flies up to reveal the weapon room. After brainstorming ways to get the projector screen to work well, the two main ideas were to project an image, which would have looked too fake, or painting the screen, which would likely peel off while rolling up and down. A new concept for discrete door placement was decided using sliding doors disguised as bookshelves.<br/>\n' +
+                '        The placement of screens and interactive props are appealing to the audience and add a more detail that heightens the overall aesthetic so that there is something new to see at every moment of the presentation.\n' +
+                '    </div>\n' +
+                '\n' +
+                '    <div class="kiosk3"></div>\n' +
+                '\n' +
+                '    <div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> The Walls </h1>\n' +
+                '        The placement of the walls followed a similar structure that has proven successful in the past: if it ain’t broke, don’t fix it! The 8’x12’ space is perfect for tool storage and robot maintenance and leaves enough from in the front for visitors to feel welcome.<br/>\n' +
+                '        This year, the walls proved to be a challenge to get redone and repainted. Due to the limited space allotted to the robotics team at Vanier during the semester, we had to be as efficient as possible and make due with what we had. We had hit a snag with the panels because they had not done before the end of the winter holidays, which greatly delayed our painting process. The main challenges were reassembling the walls correctly, determining wall placement and coordination of material pickup (because carrying 8 gallons of paint on the bus wouldn’t have been fun!). When it came to the walls, it seemed that everything that could have gone wrong went even worse than imagined!!!<br/>\n' +
+                '        However, thanks to our dedicated kiosk members who gave up their weekends to come in when there were no other students to be bothered by us painting, the whole process proved to be a success. The small repairs on the walls were done and the walls were renumbered and painted within the weeks before the competition. As stressful as the experience had been, it led to some good stories and led to a lesson learned: make the walls the year before!\n' +
+                '    </div>\n' +
+                '\n' +
+                '    <div class="kiosk4"></div>\n' +
+                '\n' +
+                '    <div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> The Books and Props </h1>\n' +
+                '        We have bookshelves on which we will put books and other decorations. However, since the shelves are mounted so that they are easy to move, putting real books on them would make the wall too heavy. That\'s why we decided to create fake books. The structure of each book is made from recycled cardboard boxes from Vanier\'s various shops and restaurants. The boxes are then cut and assembled to look like books. Subsequently, each book is covered with a paper cover with a title and a concept. The idea of ​​including titles containing plays on words and references based on real books makes every detail of our kiosk fun to see.<br/>\n' +
+                '        In our kiosk, the various props make our presentation even more dynamic and immerses the audience in the fictitious world of VIB. To make the kiosk more realistic, we created alien weapons and accessories using materials found at home. Bottles of water, cans and plastic tubes were used to create props according to our theme. <br/>\n' +
+                '        ​We believe that the importance of an prop is not in its aesthetics, but the trials and complications that arise in building one. Whether this is due to the limited materials and tools at hand, or just a lack of experience in building one. It is inevitable that at some point something will go awry. We know firsthand in making these mistakes during the creation of a prop, as the ideas that you carefully constructed in your own thoughts are utterly decimated by the very laws of physics. Consequently, you will have to question if you’re even capable of creating an object that portrays what you want, while the accumulation of your work lies in front of your very sights to mock you. With that said, if you can learn from these mistakes and alter them to function with your piece, it will create something that looks visually distinct, but most importantly it’s something you can feel proud of.\n' +
+                '    </div>';
         }
 
         function web() {
             document.getElementById("selector").innerHTML = '';
             document.getElementById("selector").removeAttribute('style');
 
-            document.getElementById("body").innerHTML = '';
+            var body = document.getElementById('body');
+            body.innerHTML += '';
         }
 
         function video() {
             document.getElementById("selector").innerHTML = '';
             document.getElementById("selector").removeAttribute('style');
 
-            document.getElementById("body").innerHTML = '';
+            var body = document.getElementById('body');
+            body.innerHTML += '<div class="video1"></div>\n' +
+                '\n' +
+                '    <div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> Brainstorming the Plot </h1>\n' +
+                '        The first meeting began with the presentation of various clips from the MIB movies to get inspired. The essential content (description of Vanier, the game and the robot) were noted and ideas to introduce them in a way that flows with the video were discussed. The consensus is to write a script that will follow the storyline of new recruit (J character) being introduced to VIB and must answer to a crisis (the game) with supervising agent K. They need to acquire a particular alien device (the robot) to complete this mission. The idea behind the video is to recreate the main plot of the first Men in Black movie as a parody using this year’s challenge.\n' +
+                '    </div>\n' +
+                '\n' +
+                '    <div class="video2"></div>\n' +
+                '\n' +
+                '    <div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> Script Writing </h1>\n' +
+                '        The process started with establishing what is required of the video. We needed to know how much of the time allotted are we putting towards necessary information such as location, rundowns and explanations. This would allow us to know a better estimate on how much time we have for the theme and story. We then detailed various points and scenes reminiscent of our theme that we wanted to be reflected or recreated in the video. Those points were chronologically placed in a timeline. The rest was fleshing out and writing dialogue for the characters and how each scene flowed to the next. It was quite fun to just act out a possible scene using various objects as “props” to see if one scene could be done.\n' +
+                '    </div>\n' +
+                '\n' +
+                '    <div class="video3"></div>\n' +
+                '\n' +
+                '    <div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> Animations for Robot and Game using Blender </h1>\n' +
+                '        The process of creating the animation for the game explanation was quite straightforward thanks to the advice of our mentor Richard Mondoux, our glorious hero. First, we measured the field’s dimensions at the kickoff and recreated it in 3D  from our sketches and measurements. Blender is relatively easy to use free software, so it didn’t take very long. We were given advice on how to improve the quality of our final render so the 3D animation should look better this year at the cost of taking longer to render.\n' +
+                '    </div>';
         }
     </script>
 
