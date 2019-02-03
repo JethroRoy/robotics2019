@@ -148,7 +148,26 @@
             document.getElementById("selector").removeAttribute('style');
 
             var body = document.getElementById('body');
-            body.innerHTML += '';
+            body.innerHTML += '<div class="web2"></div>\n' +
+                '\n' +
+                '<div class="background-gradient gradient-orange">\n' +
+                '    <h1 class="text-title"> Initial planning </h1>\n' +
+                '    Immediately after voting for the theme, planning for the website started. Because our theme was “Men in Black” we wanted to make a fancy futuristic almost alien looking website. At first, we had planned to use fancy 3d animations and webGL content to showcase our 3d modeling skills on the website. Unfortunately, we lacked people with previous experience and the people working on the website this year did not have as much free time as previously expected. So after a few meetings and serious deliberation we decided to scale back our plans for the website to a more realistic and manageable amount of work. As such we where able to meet the deadline for the competition.\n' +
+                '</div>\n' +
+                '\n' +
+                '<div class="web1"></div>\n' +
+                '\n' +
+                '<div class="background-gradient gradient-orange">\n' +
+                '    <h1 class="text-title"> Implementation in Laravel </h1>\n' +
+                '    Because we had to be develop the website quickly and make it bilingual, we decided to use Laravel in order to make the website. Laravel provides a relatively easy to use and intuitive interface for managing larger websites that use a lot of CSS and PHP. It also has a languages interface, which is an important for us, as the CRC robotics competition requires our website to be bilingual. Laravel as a framework allows for efficient code reuse between the English and French versions of the website and even different pages. This prevented us from copy pasting a bunch of code and then having to change things in multiple places afterwards.\n' +
+                '</div>\n' +
+                '\n' +
+                '<div class="web3"></div>\n' +
+                '\n' +
+                '<div class="background-gradient gradient-orange">\n' +
+                '    <h1 class="text-title"> Structuring of content </h1>\n' +
+                '    An important but often overlooked element of any CRC robotics website is the actual content. The websites content provide important insight into the process a team put into preparing for the competition.  Contrary to popular belief, you cannot easily write all the content for the website the weekend before the deadline. Not only does this lead to a lack of proofreading and careless mistakes, it also puts undue stress on the website programmers who may also be having last minute issues of their own. As such, the contents for the website, we wrote and translated the content as we prepared for the completion in order to make everything as good as possible.\n' +
+                '</div>';
         }
 
         function video() {
