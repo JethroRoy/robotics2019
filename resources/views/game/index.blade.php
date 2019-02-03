@@ -4,7 +4,7 @@
 @section('body')
     <div class="game1"></div>
 
-    <div class="background-gradient">
+    <div class="background-gradient gradient-green">
         <h1 class="text-title"> About Vertigoal </h1>
         Following the traditional structure of the annual secondary and cegep level Canadian Robotics Competition, the game will be played in teams; blue and yellow. Each team will be composed of two different schools’ robots competing alongside each other against the robots of two other schools. Points earned by the school is equal to the shared points of the colour they were on, assuming they did not acquire any individual penalties. <br/> <br/>
         Each school is allowed to have two humans seated around the playing field and one robot on the playing field. One human is the designated pilot who will have the VEX controller and operate the robot, while the other acts as a copilot who will assist the pilot by providing an extra set of eyes on the field. Neither the pilot nor the copilot are allowed to interact directly with the robot or the playing field. <br/> <br/>
@@ -13,7 +13,7 @@
 
     <div class="game2"></div>
 
-    <div class="background-gradient">
+    <div class="background-gradient gradient-green">
         <h1 class="text-title"> The Goal </h1>
         Vertigoal 2019 has, as its primary goal, to make as many points as possible in teams of two during each five minute heat. On the field, there is a total of 142 standard tennis balls; 70 “yellow”, 70 “blue” and 2 “red”. Each team is responsible for making points by putting the balls of their team’s colour in the targets. Each robot is allowed to begin the heat with a maximum of 10 balls of its team’s colour already loaded. The winning team is the team that has scored the most points, depending on the amount of their own colour in each target and taking multipliers into account. <br/> <br/>
         The field is separated into five different levels, each at a different elevation: level 1 (left of image) is the lowest and level 5 (right of image) is the highest. The robots are allowed to begin the heat in one of three starting points for their team colour in levels 1, 3, and 5. <br/> <br/>
@@ -23,7 +23,7 @@
 
     <div class="game3"></div>
 
-    <div class="background-gradient">
+    <div class="background-gradient gradient-green">
         <h1 class="text-title"> The Multiplier </h1>
         If a multiplier (red ball) is present in a target, it affects the points for all game pieces in that target, both blue and yellow, regardless of which team placed it. Only one multiplier will be counted per bucket, therefore if both red balls are in the bucket, the total points for that bucket are doubled for both the yellow and blue balls present. The red balls alone are not worth any points. <br/> <br/>
         The points awarded to individual schools equal the total points scored by their team. The only exception is if a school’s robot acquired an individual penalty during the heat or did not contribute any points to the heat.
@@ -31,7 +31,7 @@
 
     <div class="game4"></div>
 
-    <div class="background-gradient">
+    <div class="background-gradient gradient-green">
         <h1 class="text-title"> Penalties </h1>
         Just as points are awarded for excelling in the game and playing by the rules, points are also deducted when a team infringes these rules. The penalties for the game fall into specific categories: safety, respect for the space and sportsmanlike conduct. All penalties are given at the discretion of the referees and judges.
     </div>

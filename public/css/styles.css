@@ -317,7 +317,7 @@
     padding-right : 15%;
     padding-top : 80px;
     padding-bottom: 80px;
-    background-image: linear-gradient(-90deg, #420000, #000000);
+
     color: white;
     font-family: Verdana;
 
@@ -327,6 +327,14 @@
     line-height: 2em;
     text-align: justify;
 
+}
+
+.gradient-green {
+    background-image: linear-gradient(-90deg, #003d01, #000000);
+}
+
+.gradient-blue {
+    background-image: linear-gradient(-90deg, #070054, #000000);
 }
 
 .text-title {
