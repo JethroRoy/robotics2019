@@ -292,12 +292,32 @@
     }
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b70000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
+
 .background-gradient {
     padding-left : 15%;
     padding-right : 15%;
     padding-top : 80px;
     padding-bottom: 80px;
-    background-image: linear-gradient(-90deg, #420000, #000000);
+
     color: white;
     font-family: Verdana;
 
@@ -309,8 +329,33 @@
 
 }
 
+.gradient-green {
+    background-image: linear-gradient(-90deg, #003d01, #000000);
+}
+
+.gradient-blue {
+    background-image: linear-gradient(-90deg, #070054, #000000);
+}
+
+.gradient-yellow {
+    background-image: linear-gradient(-90deg, #636300, #000000);
+}
+
+.gradient-orange {
+    background-image: linear-gradient(-90deg, #6d3a00, #000000);
+}
+
+.gradient-red {
+    background-image: linear-gradient(-90deg, #5e0000, #000000);
+}
+
+.text-title {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
 .vanier1 {
-    background-image: url(../img/vanier-front.jpg);
+    background-image: url(../img/vanier1.jpg);
 
     /* Full height */
     height: 100%;
@@ -323,7 +368,7 @@
 }
 
 .vanier2 {
-    background-image: url(../img/mib_bg.png);
+    background-image: url(../img/vanier2.jpg);
 
     /* Full height */
     height: 100%;
@@ -333,4 +378,446 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.vanier3 {
+    background-image: url(../img/vanier3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier4 {
+    background-image: url(../img/vanier4.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier5 {
+    background-image: url(../img/vanier5.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier6 {
+    background-image: url(../img/vanier6.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier7 {
+    background-image: url(../img/vanier7.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.robot1 {
+    background-image: url(../img/robot1.JPG);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.robot2 {
+    background-image: url(../img/robot2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.robot3 {
+    background-image: url(../img/robot3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.robot4 {
+    background-image: url(../img/robot4.JPG);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game1 {
+    background-image: url(../img/game1.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game2 {
+    background-image: url(../img/game2.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game3 {
+    background-image: url(../img/game3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game4 {
+    background-image: url(../img/game4.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.build1 {
+    background-image: url(../img/build1.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.build2 {
+    background-image: url(../img/build2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.build3 {
+    background-image: url(../img/build3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.build4 {
+    background-image: url(../img/build4.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kiosk1 {
+    background-image: url(../img/kiosk1.JPG);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kiosk2 {
+    background-image: url(../img/kiosk2.JPG);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kiosk3 {
+    background-image: url(../img/kiosk3.JPG);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kiosk4 {
+    background-image: url(../img/kiosk4.JPG);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video1 {
+    background-image: url(../img/video1.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video2 {
+    background-image: url(../img/video2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video3 {
+    background-image: url(../img/video3.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tutorial1 {
+    background-image: url(../img/tutorial1.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tutorial2 {
+    background-image: url(../img/tutorial2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tutorial3 {
+    background-image: url(../img/tutorial3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.web1 {
+    background-image: url(../img/web1.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.web2 {
+    background-image: url(../img/web2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.web3 {
+    background-image: url(../img/web3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.journalism-build {
+    background-image: url(../img/journalism-build.jpg);
+    float: left;
+    width:25%;
+    height:100%;
+    border-right: 2px solid red;
+}
+
+.journalism-text {
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity: 0;
+}
+
+.journalism-text:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.journalism-title {
+    padding-top:10%;
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 3em;
+    line-height: 2em;
+    color:white;
+}
+
+.journalism-kiosk {
+    background-image: url(../img/journalism-kiosk.jpg);
+    float: left;
+    width:25%;
+    height:100%;
+    border-right: 2px solid red;
+}
+
+.journalism-web {
+    background-image: url(../img/journalism-web.png);
+    float: left;
+    width:25%;
+    height:100%;
+    border-right: 2px solid red;
+}
+
+.journalism-video {
+    background-image: url(../img/journalism-video.jpg);
+    float: left;
+    width:25%;
+    height:100%;
 }

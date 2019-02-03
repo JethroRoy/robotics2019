@@ -25,7 +25,7 @@
     <script src="{{ asset('js/script.js') }}"></script>
 </head>
 
-<body style="height:100%;">
+<body id="body" style="height:100%;">
 @include('layouts.navbar')
 
 @yield('body')
