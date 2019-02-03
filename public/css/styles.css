@@ -337,13 +337,17 @@
     background-image: linear-gradient(-90deg, #070054, #000000);
 }
 
+.gradient-yellow {
+    background-image: linear-gradient(-90deg, #636300, #000000);
+}
+
 .text-title {
     text-align: center;
     padding-bottom: 25px;
 }
 
 .vanier1 {
-    background-image: url(../img/vanier-front.jpg);
+    background-image: url(../img/vanier1.jpg);
 
     /* Full height */
     height: 100%;
@@ -356,7 +360,85 @@
 }
 
 .vanier2 {
-    background-image: url(../img/mib_bg.png);
+    background-image: url(../img/vanier2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier3 {
+    background-image: url(../img/vanier3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier4 {
+    background-image: url(../img/vanier4.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier5 {
+    background-image: url(../img/vanier5.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier6 {
+    background-image: url(../img/vanier6.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vanier7 {
+    background-image: url(../img/vanier7.png);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.robot1 {
+    background-image: url(../img/vanier7.png);
 
     /* Full height */
     height: 100%;
