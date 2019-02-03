@@ -438,7 +438,46 @@
 }
 
 .robot1 {
-    background-image: url(../img/vanier7.png);
+    background-image: url(../img/robot1.JPG);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.robot2 {
+    background-image: url(../img/robot2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.robot3 {
+    background-image: url(../img/robot3.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.robot4 {
+    background-image: url(../img/robot4.JPG);
 
     /* Full height */
     height: 100%;
