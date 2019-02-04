@@ -17,4 +17,8 @@ class VanierController extends Controller
         return view('vanier.index');
     }
 
+    public function indexfr() {
+
+        return view('vanier.indexfr');
+    }
 }

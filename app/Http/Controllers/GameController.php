@@ -17,4 +17,9 @@ class GameController extends Controller
         return view('game.index');
     }
 
+    public function indexfr() {
+
+        return view('game.indexfr');
+    }
+
 }

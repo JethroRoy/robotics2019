@@ -16,5 +16,9 @@ class GalleryController extends Controller
 
         return view('gallery.index');
     }
-    
+
+    public function indexfr() {
+
+        return view('gallery.indexfr');
+    }
 }

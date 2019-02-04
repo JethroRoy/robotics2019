@@ -16,5 +16,10 @@ class JournalismController extends Controller
 
         return view('journalism.index');
     }
+
+    public function indexfr() {
+
+        return view('journalism.indexfr');
+    }
     
 }

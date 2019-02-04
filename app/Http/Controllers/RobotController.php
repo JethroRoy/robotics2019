@@ -16,5 +16,10 @@ class RobotController extends Controller
 
         return view('robot.index');
     }
+
+    public function indexfr() {
+
+        return view('robot.indexfr');
+    }
     
 }

@@ -16,5 +16,10 @@ class TeamController extends Controller
 
         return view('team.index');
     }
+
+    public function indexfr() {
+
+        return view('team.indexfr');
+    }
     
 }

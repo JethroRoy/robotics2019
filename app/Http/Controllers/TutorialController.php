@@ -17,4 +17,8 @@ class TutorialController extends Controller
         return view('tutorial.index');
     }
 
+    public function indexfr() {
+
+        return view('tutorial.indexfr');
+    }
 }
