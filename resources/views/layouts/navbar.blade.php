@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-default nav-custom" style="position:fixed; width: 100%; top: 0%">
+<nav class="navbar navbar-default nav-custom" style="position:fixed; width: 100%; top: 0%; z-index: 3;">
     <div class="container-fluid nav-background">
         <div class="navbar-header">
             <a onmouseover="home()" class="navbar-brand logo-link" href="/en/"><img src="{{ asset('img/gear.png') }}" alt="Vanier Gear" height="50" width="50"></a>

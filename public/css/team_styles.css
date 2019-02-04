@@ -100,15 +100,9 @@
     margin-top : 15px;
 }
 
-.member {
-   /* margin-left : 35%;
-    margin-right : 35%;
-    margin-top : 15px;*/
 
 
-}
-
-.member-image {
+.image {
     padding:1px;
     border:1px solid red;
     border-radius: 50%;
@@ -119,7 +113,7 @@
     object-fit: cover;
 
     float: left;
-    display: inline;
+  
     margin: 2%;
 }
 
