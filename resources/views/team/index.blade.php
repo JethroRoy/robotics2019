@@ -20,16 +20,16 @@
 ?>
 <div class="fill" >
 
-    <div class="blue-ring neon-blue">
+    <div class="team build blue-ring neon-blue">
         @foreach($buildCaptains as $file)           
-            <img class="image" src="{{ asset($file) }}" alt="member"/>       
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>       
         @endforeach
          @foreach($build as $file)           
-            <img class="image" src="{{ asset($file) }}" alt="member"/>       
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>       
         @endforeach
     </div>
 
-    <div class="blue-ring neon-blue" hidden> 
+    <div class="team kiosk blue-ring neon-blue" hidden> 
         @foreach($kioskCaptains as $file) 
             <img class="image" src="{{ asset($file) }}" alt="member"/>            
         @endforeach      
@@ -38,7 +38,7 @@
         @endforeach  
     </div>
 
-    <div class="blue-ring neon-blue" hidden>
+    <div class="team journalism blue-ring neon-blue" hidden>
         @foreach($journalismCaptains as $file) 
             <img class="image" src="{{ asset($file) }}" alt="member"/>
         @endforeach
@@ -47,7 +47,7 @@
         @endforeach      
     </div>
 
-    <div class="blue-ring neon-blue" hidden>
+    <div class="team web blue-ring neon-blue" hidden>
         @foreach($webCaptains as $file) 
             <img class="image" src="{{ asset($file) }}" alt="member"/>            
         @endforeach
@@ -56,13 +56,20 @@
         @endforeach
       
     </div>
-    <div class="blue-ring neon-blue" hidden>
+    <div class="team video blue-ring neon-blue" hidden>
         @foreach($videoCaptains as $file)  
             <img class="image" src="{{ asset($file) }}" alt="member"/>
         @endforeach
         @foreach($video as $file)  
             <img class="image" src="{{ asset($file) }}" alt="member"/>
         @endforeach
+    </div>
+    <div>
+        <button id="build">Build</button>
+        <button id="kiosk">Kiosk</button>
+        <button id="journalism">Journalism</button>
+        <button id="web">Web</button>
+        <button id="video">Video</button>
     </div>
 </div><!-- /.container -->
 
@@ -95,6 +102,17 @@
 
         });
         $('.image').first().click();
-
+        $('button').click(function() {
+            var team = $(this).attr('id');
+            var teams = $('.team');
+            for(var i = 0; i < teams.length; i++){
+               // teams[i].attr('hidden')
+                teams[i].hidden = true;
+            }
+            console.log(team);
+            var toShow = $('.'+team);
+            console.log(toShow);
+            toShow.removeAttr('hidden');
+        });
     });
 </script>
