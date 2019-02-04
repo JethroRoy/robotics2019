@@ -31,37 +31,37 @@
 
     <div class="team kiosk blue-ring neon-blue" hidden> 
         @foreach($kioskCaptains as $file) 
-            <img class="image" src="{{ asset($file) }}" alt="member"/>            
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>            
         @endforeach      
         @foreach($kiosk as $file) 
-            <img class="image" src="{{ asset($file) }}" alt="member"/>            
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>            
         @endforeach  
     </div>
 
     <div class="team journalism blue-ring neon-blue" hidden>
         @foreach($journalismCaptains as $file) 
-            <img class="image" src="{{ asset($file) }}" alt="member"/>
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>
         @endforeach
         @foreach($journalism as $file) 
-            <img class="image" src="{{ asset($file) }}" alt="member"/>
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>
         @endforeach      
     </div>
 
     <div class="team web blue-ring neon-blue" hidden>
         @foreach($webCaptains as $file) 
-            <img class="image" src="{{ asset($file) }}" alt="member"/>            
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>            
         @endforeach
         @foreach($web as $file) 
-            <img class="image" src="{{ asset($file) }}" alt="member"/>            
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>            
         @endforeach
       
     </div>
     <div class="team video blue-ring neon-blue" hidden>
         @foreach($videoCaptains as $file)  
-            <img class="image" src="{{ asset($file) }}" alt="member"/>
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>
         @endforeach
         @foreach($video as $file)  
-            <img class="image" src="{{ asset($file) }}" alt="member"/>
+            <img class="image double-border" src="{{ asset($file) }}" alt="member"/>
         @endforeach
     </div>
     <div>
