@@ -124,7 +124,7 @@ body {
 
 #panel-image {
     width: 95%;
-    height: 40%;
+    height: auto;
     margin-top: 20%;
 }
 
