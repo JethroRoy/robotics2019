@@ -9,8 +9,8 @@
     $kioskCaptains = glob('img/teams/kiosk/captain/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
     $kiosk = glob('img/teams/kiosk/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
 
-    $journalismCaptains = glob('img/teams/journalism/captain/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-    $journalism = glob('img/teams/journalism/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+    $mentorCaptains = glob('img/teams/mentor/captain/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+    $mentor = glob('img/teams/mentor/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
 
     $webCaptains = glob('img/teams/web/captain/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
     $web = glob('img/teams/web/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
@@ -18,7 +18,15 @@
     $videoCaptains = glob('img/teams/video/captain/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
     $video = glob('img/teams/video/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
 ?>
-<div class="fill" >
+<div class="fill pic-list" >
+
+    <div class="but-div">
+        <button id="build" class="button">Build</button>
+        <button id="kiosk" class="button">Kiosk</button>
+        <button id="web" class="button">Web</button>
+        <button id="video" class="button">Video</button>
+        <button id="mentor" class="button">Mentor</button>
+    </div>
 
     <div class="team build blue-ring neon-blue">
         @foreach($buildCaptains as $file)           
@@ -38,11 +46,11 @@
         @endforeach  
     </div>
 
-    <div class="team journalism blue-ring neon-blue" hidden>
-        @foreach($journalismCaptains as $file) 
+    <div class="team mentor blue-ring neon-blue" hidden>
+        @foreach($mentorCaptains as $file)
             <img class="image double-border" src="{{ asset($file) }}" alt="member"/>
         @endforeach
-        @foreach($journalism as $file) 
+        @foreach($mentor as $file)
             <img class="image double-border" src="{{ asset($file) }}" alt="member"/>
         @endforeach      
     </div>
@@ -64,13 +72,7 @@
             <img class="image double-border" src="{{ asset($file) }}" alt="member"/>
         @endforeach
     </div>
-    <div>
-        <button id="build">Build</button>
-        <button id="kiosk">Kiosk</button>
-        <button id="journalism">Journalism</button>
-        <button id="web">Web</button>
-        <button id="video">Video</button>
-    </div>
+
 </div><!-- /.container -->
 
 
@@ -78,7 +80,7 @@
     <img id="panel-image" src="{{ asset('img/teams/test.png') }}"/>
 
     <div id="bio">
-        Hello
+
     </div>
 </div>
 @endsection
@@ -90,6 +92,13 @@
     {
         $('.image').click(function(){
             var path = $(this).attr('src');
+            console.log(path);
+
+            var pathArr = path.split("/");
+
+            var path = pathArr[0].concat("//", "localhost/img/teams/", pathArr[5], "/zoom/",pathArr[6]);
+            console.log(path);
+
             $('#panel-image').attr('src', path);
 
           /*  if ($bioFile = fopen("{{ asset('bios/Houara,\ Hummam.txt') }}", "r")) {

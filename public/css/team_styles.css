@@ -91,10 +91,9 @@ body {
 }
 
 .blue-ring {
-    margin : 8% 1% 10% 1%;
     border: 1px solid;
     border-color: #228DFF;
-    border-radius: 50%;
+    border-radius: 10%;
     box-shadow: 0px 0px 40px #228DFF;
     height: 80%;
 
@@ -125,9 +124,8 @@ body {
 
 #panel-image {
     width: 95%;
-    height: 35%;
+    height: 40%;
     margin-top: 20%;
-    border-radius: 50%;
 }
 
 #bio{
@@ -138,8 +136,42 @@ body {
   background-color: #ccc;
   border: 2px solid #5e95ed;
   margin: 1%;
+}
 
+.pic-list {
+    position:absolute;
+    left:0;
+    float: left;
+    width: 66%;
+    height: 100%;
+}
 
+.but-div {
+    padding: 10px 5px 5px 50px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #008CBA;
+    color: white;
 }
 
 
