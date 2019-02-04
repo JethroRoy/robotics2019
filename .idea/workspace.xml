@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb0132bb-4e1a-41c9-95a5-5579612d8696" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/game/indexfr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/game/indexfr.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home/indexfr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home/indexfr.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/journalism/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/journalism/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/gallery_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/gallery_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/0-B1nMAW5C3-S-W0a8 - Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/0-B1nMAW5C3-S-W0a8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/Slideshow3-758x505 - Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/Slideshow3-758x505.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/Slideshow4 - Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/Slideshow4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/Vanier College - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/Vanier College.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/Zoomer-robot-dog - Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/Zoomer-robot-dog.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/cover - Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/cover.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/default1 - Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/default1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/robotics - Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/robotics.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/webcast_2017-02-23-1500_intelligent-tax-automation-using-robotics-software - Copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/gallery/webcast_2017-02-23-1500_intelligent-tax-automation-using-robotics-software.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/mib_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/gallery/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/gallery/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/journalism/indexfr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/journalism/indexfr.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/robot/indexfr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/robot/indexfr.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tutorial/indexfr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tutorial/indexfr.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vanier/indexfr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vanier/indexfr.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,100 +37,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/gallery/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home/indexfr.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/journalism/indexfr.blade.php">
+        <entry file="file://$PROJECT_DIR$/public/css/gallery_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
-              <folding>
-                <element signature="e#67#132#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="415">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/game.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="23" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/journalism/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="117" column="31" lean-forward="true" selection-start-line="117" selection-start-column="31" selection-end-line="151" selection-end-column="29" />
-              <folding>
-                <element signature="e#74#139#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/robot/indexfr.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/tutorial/indexfr.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/resources/views/gallery/default.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="806" column="23" lean-forward="true" selection-start-line="806" selection-start-column="23" selection-end-line="806" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/vanier/indexfr.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/game/indexfr.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="1207">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -139,7 +89,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/homeController.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/gallery/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/styles.scss" />
         <option value="$PROJECT_DIR$/resources/views/team/index.blade.php" />
         <option value="$PROJECT_DIR$/public/js/script.js" />
@@ -170,8 +119,10 @@
         <option value="$PROJECT_DIR$/resources/views/robot/indexfr.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/journalism/index.blade.php" />
         <option value="$PROJECT_DIR$/public/css/styles.css" />
-        <option value="$USER_HOME$/Desktop/game.php" />
         <option value="$PROJECT_DIR$/resources/views/journalism/indexfr.blade.php" />
+        <option value="$USER_HOME$/Desktop/game.php" />
+        <option value="$PROJECT_DIR$/resources/views/gallery/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/gallery_styles.css" />
       </list>
     </option>
   </component>
@@ -326,30 +277,6 @@
               <item name="mib_robotics" type="b2602c69:ProjectViewProjectNode" />
               <item name="mib_robotics" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mib_robotics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mib_robotics" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mib_robotics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mib_robotics" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mib_robotics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mib_robotics" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mib_robotics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mib_robotics" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mib_robotics" type="b2602c69:ProjectViewProjectNode" />
@@ -555,12 +482,12 @@
       <workItem from="1548444411943" duration="1028000" />
       <workItem from="1549056970650" duration="6522000" />
       <workItem from="1549130363702" duration="10103000" />
-      <workItem from="1549212669472" duration="27916000" />
+      <workItem from="1549212669472" duration="34419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103045000" />
+    <option name="totallyTimeSpent" value="109548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
@@ -591,12 +518,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/console.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/channels.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -672,9 +593,6 @@
           <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/gallery/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -875,37 +793,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="806" column="23" lean-forward="true" selection-start-line="806" selection-start-column="23" selection-end-line="806" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/journalism/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="117" column="31" lean-forward="true" selection-start-line="117" selection-start-column="31" selection-end-line="151" selection-end-column="29" />
-          <folding>
-            <element signature="e#74#139#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/game.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="23" selection-end-column="6" />
+        <state relative-caret-position="-670">
+          <caret line="137" column="33" selection-start-line="137" selection-start-column="33" selection-end-line="137" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/journalism/indexfr.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
+        <state relative-caret-position="721">
+          <caret line="195" column="23" selection-start-line="195" selection-start-column="23" selection-end-line="195" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/gallery/default.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/game.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="131" lean-forward="true" selection-start-line="36" selection-start-column="131" selection-end-line="36" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/gallery/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#67#132#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/gallery_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>

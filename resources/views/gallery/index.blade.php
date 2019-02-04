@@ -5,7 +5,7 @@
 <?php 
 	$files = glob('img/gallery/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
 ?>
-	<div class="gallery scrollable">
+	<div class="gallery scrollable" style="padding-top:57px;" >
 	 @foreach($files as $file)	 	
 	  	<img src="{{asset($file)}}" class="image"/>	 
 	 @endforeach

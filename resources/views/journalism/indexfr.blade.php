@@ -176,23 +176,24 @@
             body.innerHTML += '<div class="video1"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Brainstorming the Plot </h1>\n' +
-                '        The first meeting began with the presentation of various clips from the MIB movies to get inspired. The essential content (description of Vanier, the game and the robot) were noted and ideas to introduce them in a way that flows with the video were discussed. The consensus is to write a script that will follow the storyline of new recruit (J character) being introduced to VIB and must answer to a crisis (the game) with supervising agent K. They need to acquire a particular alien device (the robot) to complete this mission. The idea behind the video is to recreate the main plot of the first Men in Black movie as a parody using this year’s challenge.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Penser au concept </h1>\n' +
+                '        La première rencontre a commencé avec la présentation de divers extraits des films “Hommes en noir” afin d’en trouver de l’inspiration. Le contenu essentiel du vidéo (la description de Vanier, le jeu ainsi que le robot) a été discuté et noté et l’équipe a discuté d’idées afin d’introduire le contenu de façon fluide dans la vidéo. Le consensus est d’écrire un scénario qui suivra l’histoire d’une nouvelle recrue (le personnage de J) qui est introduit à VIB et doit répondre à une situation urgente (le jeu) à l’aide du superviseur (l’agent K). Afin de compléter leur mission, il est essentiel qu’ils récupèrent un appareil extraterrestre (le robot). L\'idée derrière la vidéo est de recréer l\'intrigue principale du premier film Men in Black sous forme de parodie utilisant le défi de cette année.\n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="video2"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Script Writing </h1>\n' +
-                '        The process started with establishing what is required of the video. We needed to know how much of the time allotted are we putting towards necessary information such as location, rundowns and explanations. This would allow us to know a better estimate on how much time we have for the theme and story. We then detailed various points and scenes reminiscent of our theme that we wanted to be reflected or recreated in the video. Those points were chronologically placed in a timeline. The rest was fleshing out and writing dialogue for the characters and how each scene flowed to the next. It was quite fun to just act out a possible scene using various objects as “props” to see if one scene could be done.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Processus de tournage </h1>\n' +
+                '\tFilmer la courte vidéo de Robotics a été un plaisir! En peu de temps, notre responsable d’équipe a filmé un court sketch comique et a bien expliqué notre robot et notre compétition. Avec les 2 acteurs principaux notre réalisateur et notre agent derrière la caméra, l\'expérience de tournage a été fluide et agréable. Pour un nouveau réalisateur, il a fait un excellent travail, notre cadreur était incroyable en tournage; elle savait exactement quel angle était le meilleur pour un plan donné. La vraie star, Jet, a fait un travail phénoménal dans son rôle en raison de sa capacité à mémoriser ses répliques sur-le-champ et de son idée utile sur la façon d’aborder différemment certaines scènes. On a eu beaucoup de plaisir à apprendre, à jouer et à réciter nos répliques de manières différentes et bizarres pendant le processus de tournage, et tout cela grâce aux excellentes compétences de mise en scène de Humam, notre réalisateur. Depuis que la plupart de nos prises ont été filmées au centre STEM de Vanier, c’était plus facile de se concentrer et de bien dire nos paroles. bien que la réinitialisation a été faite à l\'extérieur près de l\'entrée de l\'école dans le froid! <br/>\n' +
+                'Personnellement, parmi tous les clichés pris, mon préféré devrait être la scène où l\'agent Y part à la poursuite de l\'oie sauvage à la recherche des clés du laboratoire! J\'ai aimé revivre cette scène parce que c\'est l\'une de mes scènes préférées de tous les temps, celle de Men in Black! En conclusion, être acteur de l\'équipe de cinéma robotique a été une expérience intéressante à laquelle j\'aimerais prendre part l\'année prochaine!\n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="video3"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Animations for Robot and Game using Blender </h1>\n' +
-                '        The process of creating the animation for the game explanation was quite straightforward thanks to the advice of our mentor Richard Mondoux, our glorious hero. First, we measured the field’s dimensions at the kickoff and recreated it in 3D  from our sketches and measurements. Blender is relatively easy to use free software, so it didn’t take very long. We were given advice on how to improve the quality of our final render so the 3D animation should look better this year at the cost of taking longer to render.\n' +
-                '    </div>';
+                '        <h1 class="text-title"> Animations pour Robot et Jeu avec Blender </h1>\n' +
+                '\tLe processus de création de l\'animation pour l\'explication du jeu était assez simple grâce aux conseils de notre mentor Richard Mondoux. Tout d\'abord, nous avons mesuré les dimensions du champ au coup d\'envoi et les avons recréées en 3D à partir de nos croquis et mesures. Blender est un logiciel gratuit relativement facile à utiliser, il n’a donc pas fallu trop de temps pour créer nos animations. Nous avons reçu des conseils sur la manière d’améliorer la qualité de notre résultat final, de sorte que l’animation 3D devrait avoir une meilleure apparence cette année.        \n' +
+                '</div>';
         }
     </script>
 

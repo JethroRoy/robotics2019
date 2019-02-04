@@ -1,8 +1,9 @@
 	body {
 		/*background-image: url({{asset('./img/mib_bg.png')}});*/
-		background-image: url('../img/mib_bg.png');
+		background-image: url('../img/mib_bg.jpg');
 		background-repeat: no-repeat;
-		background-size: 100% 150%; 
+		background-size: 100% 100%;
+
 	}
 
 	.gallery {
@@ -16,19 +17,22 @@
      }
 
      .image {
-     	width: 230px;
+         width: 230px;
 		 height: 170px;
-		  border: 8px groove gray; margin: 15px;
+         border: 8px solid #5e0000; margin: 15px;
+         border-radius: 20%;
+         box-shadow: 0px 0px 20px red;
      }
 
      .image:hover {
-     	border-color: white;
+     	border-color: #ad0000;
+         box-shadow: 0px 0px 50px red;
      }
 
      .viewer {
 		z-index: 1;
-		top: 0;
-		left: 0;
+         left:0;
+		padding-right:10%;
 		position: fixed;
 		width: 100%;
 		height: 100%;
@@ -56,5 +60,6 @@
 	    border: 0;
 	    margin-right: 10px;
 	    opacity: 0.5 !important;
+         color: white;
 
 	}  
