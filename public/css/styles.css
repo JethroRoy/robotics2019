@@ -799,6 +799,15 @@
     color:white;
 }
 
+.journalism-titlefr {
+    padding-top:10%;
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 2em;
+    line-height: 1.6em;
+    color:white;
+}
+
 .journalism-kiosk {
     background-image: url(../img/journalism-kiosk.jpg);
     float: left;

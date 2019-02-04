@@ -38,22 +38,22 @@
 <main role="main" class="container" style="margin-top: 55px;">
 
     <div class="home-vanier-div">
-        <a href="/en/vanier" class="home-vanier">VANIER</a>
+        <a href="/fr/vanier" class="home-vanier">VANIER</a>
     </div>
     <div class="home-team-div">
-        <a href="/en/team" class="home-team">TEAM</a>
+        <a href="/fr/team" class="home-team">EQUIPE</a>
     </div>
     <div class="home-robot-div">
-        <a href="/en/robot" class="home-robot">ROBOT</a>
+        <a href="/fr/robot" class="home-robot">ROBOT</a>
     </div>
     <div class="home-gallery-div">
-        <a href="/en/gallery" class="home-gallery">GALLERY</a>
+        <a href="/fr/gallery" class="home-gallery">GALERIE</a>
     </div>
     <div class="home-journalism-div">
-        <a href="/en/journalism" class="home-journalism">JOURNALISM</a>
+        <a href="/fr/journalism" class="home-journalism">JOURNALISME</a>
     </div>
     <div class="home-game-div">
-        <a href="/en/game" class="home-game">GAME</a>
+        <a href="/fr/game" class="home-game">JEU</a>
     </div>
 
 

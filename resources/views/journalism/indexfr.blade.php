@@ -3,28 +3,28 @@
 
 @section('body')
 
-<div id="selector" style="width:100%;height:100%; margin-top:57px;overflow: hidden;">
+<div id="selector" style="width:100%;height:100%; padding-top:57px;overflow: hidden;">
     <div class="journalism-build" onclick="build()">
         <div class="journalism-text">
-            <div class="journalism-title">B<br/>U<br/>I<br/>L<br/>D</div>
+            <div class="journalism-titlefr">C<br/>O<br/>N<br/>S<br/>T<br/>R<br/>U<br/>C<br/>T<br/>I<br/>O<br/>N</div>
         </div>
     </div>
 
     <div class="journalism-kiosk">
         <div class="journalism-text" onclick="kiosk()">
-            <div class="journalism-title">K<br/>I<br/>O<br/>S<br/>K</div>
+            <div class="journalism-title">K<br/>I<br/>O<br/>S<br/>Q<br/>U<br/>E</div>
         </div>
     </div>
 
     <div class="journalism-web">
         <div class="journalism-text" onclick="web()">
-            <div class="journalism-title">W<br/>E<br/>B</div>
+            <div class="journalism-title">S<br/>I<br/>T<br/>E<br/> <br/>W<br/>E<br/>B</div>
         </div>
     </div>
 
     <div class="journalism-video">
         <div class="journalism-text" onclick="video()">
-            <div class="journalism-title">V<br/>I<br/>D<br/>E<br/>O</div>
+            <div class="journalism-title">V<br/>I<br/>D<br/>É<br/>O</div>
         </div>
     </div>
 </div>
@@ -41,64 +41,64 @@
             body.innerHTML += '<div class="build2"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Basic overview of elements required for the game </h1>\n' +
-                '        Given that the main challenges identified were the steps, launching to the buckets and picking up the balls, we decided that the key elements of the robot must be designed in accordance with these challenges. The button and the plinko were dismissed as easy to overcome using the drive system and the robots main frame as leverage.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Aperçu des éléments requis pour le jeu </h1>\n' +
+                '\tÉtant donné que les principaux défis identifiés étaient les étapes, le lancement aux godets et la récupération des balles, nous avons décidé que les éléments clés du robot doivent être conçus en fonction de ces défis. Le bouton et le plinko ont été écartés comme facile à surmonter en utilisant le système d\'entraînement et le cadre principal des robots comme levier.        \n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="robot1"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Brainstorming and Designing </h1>\n' +
-                '        Our brainstorming process began in early November after the kickoff. We decided to examine similar challenges from previous years and seek inspiration from the methods taken by other schools as well as a general research for various systems related to robots going over rough terrain, launch systems and pickup systems.<br/>\n' +
-                '        When the idea for steps was initially presented before kickoff, we considered using + shaped wheels that would climb the stairs. Once we saw the field however, we realized that these wheels were not efficient for the challenge and would make our robot shaky more than it would help. Our next idea was to use suspended wheels in the front, two inches above ground, possibly using treads for extra tension. From there, a bit of internet browsing led us to the mecatankanum concept.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Remue-méninges et de la Conception </h1>\n' +
+                '        Notre réflexion a commencé au début de novembre, après le coup d\'envoi. Nous avons décidé d\'examiner des défis similaires des années précédentes et de nous inspirer des méthodes adoptées par d\'autres écoles ainsi que d\'une recherche générale pour divers systèmes liés à des robots parcourant des terrains accidentés, des systèmes de lancement et des systèmes de ramassage.<br/>\n' +
+                '\tLorsque l\'idée des marches a été présentée pour la première fois avant le coup d\'envoi, nous avons envisagé d\'utiliser des roues en forme de + pour monter les escaliers. Une fois que nous avons vu le terrain cependant, nous avons réalisé que ces roues n\'étaient pas efficaces pour le défi et ferait trembler notre robot plus qu\'il n\'aiderait. Notre idée suivante était d\'utiliser des roues suspendues à l\'avant, à deux pouces au-dessus du sol, peut-être en utilisant des bandes de roulement pour augmenter la tension. De là, un peu de navigation sur internet nous a mené au concept de mecatankanum.\n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="robot2"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Brainstorming and Designing (cont\'d.) </h1>\n' +
-                '        For the pickup system, the consensus on a larger pickup system that would function continuously and feed a funnel at the top was achieved instantly. Efficiency was deemed key and there was no need for precision if the pickup fed into a colour sensor. Originally, the current model of the pickup was supposed to be two parallel sets of treads with fins spanning the entire back of the robot, however, this was deemed too expensive and redundant to have two. The balls roll well and so it was decided that one side would be a sheet of corrugated plastic with only six rows of treads and have a funnel at the bottom to direct them to the pickup’s entrance.<br/>\n' +
-                '        For the launch, using pneumatics or spring loaded launch systems were immediately rejected for two main reasons. First, the reload time was not efficient and a continuous launch was desired. Second, the systems are more complicated to build well than their efficiency is worth, which also means that there is more risk for malfunction. A more efficient and simpler system would be to use fast rotating wheels. The system for wheels could either use one vertical wheel with a guiding rail or use two sets of parallel horizontal wheels with a guiding rail between them. The use of a vertical wheel, especially if placed on a hinge, would eliminate a lot of vertical space on the robot and not make use of the horizontal space despite being less complex than the horizontal setup. In our design, we decided to sacrifice simplicity for capacity and have the main hopper be taller in order to take advantage of gravity.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Remue-méninges et de la Conception (suite) </h1>\n' +
+                '        Pour le système de collecte, le consensus sur un système de collecte plus grand qui fonctionnerait en continu et alimenterait un entonnoir au sommet a été atteint instantanément. L\'efficacité était considérée comme essentielle et il n\'était pas nécessaire de faire preuve de précision si le capteur était introduit dans un capteur de couleur. À l\'origine, le modèle actuel du pick-up était censé être deux ensembles parallèles de bandes de roulement avec des ailettes couvrant tout le dos du robot, mais cela a été jugé trop coûteux et redondant pour en avoir deux. Les balles roulent bien et il a donc été décidé qu\'un côté serait une feuille de plastique ondulé avec seulement six rangées de bandes de roulement et avoir un entonnoir au fond pour les diriger à l\'entrée de la camionnette.<br/>\n' +
+                '\tPour le lancement, l\'utilisation de systèmes pneumatiques ou de systèmes de lancement à ressort a été immédiatement rejetée pour deux raisons principales. Tout d\'abord, le temps de rechargement n\'était pas efficace et un lancement continu était souhaité. Deuxièmement, les systèmes sont plus compliqués à construire bien que leur efficacité vaut la peine, ce qui signifie également qu\'il ya plus de risques de dysfonctionnement. Une façon plus efficace et plus simple serait d\'utiliser rapide rotation des roues. Le système pour roues peut utiliser soit une roue verticale avec un rail de guidage, soit deux ensembles de roues horizontales parallèles avec un rail de guidage entre eux. L\'utilisation d\'une roue verticale, surtout si elle est placée sur une charnière, éliminerait beaucoup d\'espace vertical sur le robot et ne ferait pas usage de l\'espace horizontal bien qu\'il soit moins complexe que la configuration horizontale. Dans notre conception, nous avons décidé de sacrifier la simplicité pour la capacité et avoir la trémie principale être plus grand afin de profiter de la gravité.\n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="robot3"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Drive System (Jeff) </h1>\n' +
-                '        The base of our robot was designed in such a way that we could get our pickup system and launching system as close to the ground as possible, while still leaving them protected as well as allowing for ground clearance when climbing the steps on the playing field. Therefore, we decided to build it in an “H” pattern, with the drive wheels and motors being housed in the two larger portions of the frame, and the controls as well as wiring housed in the horizontal cross beams. The robot was also built as a 34” (864 MM) square, allowing us a 2” (50 MM) safety cushion in case any cuts were improperly made or we decided to have the batteries or rear wheels stick out of the fram slightly as the rules only allow a maximum size of 36” (915 MM) cubed.<br/>\n' +
-                '        To propel our robot, we designed a tandem drive system. Using two different types of drive systems, a Mecanum wheel setup as well as a Tank drive. The Mecanum wheels are each driven individually, and by reversing the direction each individual wheel spins we can achieve many directions of movement that are impossible using normal wheels. We can drive forward and backwards, as well as steer left and right as normal. However, we can also drive completely sideways or in any diagonal direction as well as seen in the diagram below.<br/>\n' +
-                '        The second system, the tank tread, was developed to lift the front end of our robot over the steps easily and relieve stress on the front wheels, bearings and frame from the sudden impact at full speed. It is spun using the rear drive axle, with the front axle and the pulley suspended in the air on the front of the robot idling on the axles. This belt, coupled with the angle of approach, will allow our robot to hit the steps at any speed smoothly and efficiently.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Système D\'Entraînement (Jeff) </h1>\n' +
+                '\tLa base de notre robot a été conçue de manière à ce que nous puissions obtenir notre système de pick-up et de lancement aussi près que possible du sol, tout en les laissant toujours protégés et en permettant une garde au sol lors de la montée des marches sur le terrain de jeu. Par conséquent, nous avons décidé de le construire en “H”, les roues motrices et les moteurs étant logés dans les deux plus grandes parties du cadre, et les commandes ainsi que le câblage logé dans les faisceaux transversaux horizontaux. Le robot a également été construit comme un carré de 34” (864 MM), nous permettant un coussin de sécurité de 2” (50 MM) en cas de coupures mal faites ou nous avons décidé de faire coller les batteries ou les roues arrière hors du cadre légèrement que les règles ne permettent une taille maximale de 36” (915 MM) cubé.<br/>\n' +
+                '\tPour propulser notre robot, nous avons conçu un système d\'entraînement en tandem. En utilisant deux types différents de systèmes d\'entraînement, une configuration de roue Mecanum ainsi qu\'un entraînement de réservoir. Les roues Mecanum sont chacune entraînées individuellement, et en inversant la direction de chaque rotation de roue individuelle, nous pouvons atteindre de nombreuses directions de mouvement qui sont impossibles à l\'aide de roues normales. Nous pouvons conduire vers l\'avant et vers l\'arrière, ainsi que conduire à gauche et à droite comme d\'habitude. Cependant, nous pouvons également conduire complètement de côté ou dans n\'importe quelle direction diagonale ainsi que vu dans le diagramme ci-dessous.<br/>\n' +
+                '\tLe deuxième système, la bande de roulement de réservoir, a été développé pour soulever l\'avant de notre robot sur les marches facilement et soulager la contrainte sur les roues avant, les roulements et le cadre de l\'impact soudain à pleine vitesse. Il est tournant à l\'aide de l\'essieu arrière, avec l\'essieu avant et la poulie suspendue dans l\'air à l\'avant du robot tournant au ralenti sur les essieux. Cette ceinture, couplé avec l\'angle d\'approche, permettra à notre robot de frapper les marches à toute vitesse en douceur et efficacement.        \n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="robot4"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Pickup System (Spike) </h1>\n' +
-                '        The pickup system of the robot, named Spike, is made of two parallel 1:3:1 VEX C-channels with six rows of tank treads spaced 3 inches away from a sheet of corrugated plastic. White zip ties were connected to the tank treads at intervals using hot glue to ensure they remain in place. Two VEX 393 motors were fixed to the same shaft at the top of the system and connected to each other with reverse leads to allow them to work with each other. <br/>\n' +
-                '        Spike’s design allows for the balls to be picked up using the zip ties, which are relatively rigid and thus able to support the light weight of the ball while also able to bend when sliding along the corrugated plastic. The 3 inch space between the treads and sheet of corrugated plastic prevents the balls from getting stuck, especially near the three rows of guiding wheels located at the bottom, middle and top of the system where there is the least tread flexibility.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Système De Ramassage (Spike) </h1>\n' +
+                '        Le système de ramassage du robot, appelé Spike, est fait de deux canaux C Vex parallèles 1:3:1 avec six rangées de bandes de roulement de réservoir espacées de 3 pouces d\'une feuille de plastique ondulé. Blanc attaches étaient connectés à chenilles à des intervalles à l\'aide de la colle chaude pour s\'assurer qu\'ils restent en place. Deux moteurs VEX 393 ont été fixés sur le même arbre au sommet du système et reliés entre eux par des fils inversés pour leur permettre de travailler ensemble.<br/>\n' +
+                '\tLa conception de Spike permet aux billes d\'être ramassées en utilisant les liens zip, qui sont relativement rigides et donc en mesure de supporter le poids léger de la balle tout en étant également capable de se plier en glissant le long du plastique ondulé. L\'espace de 3 pouces entre les bandes de roulement et la feuille de plastique ondulé empêche les billes de se coincer, surtout près des trois rangées de roues de guidage situées au bas, au milieu et au haut du système où il y a le moins de flexibilité de la bande de roulement. \n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="build1"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Launch (Neeble) </h1>\n' +
-                '        The launch system is a standard flywheel launch system that had been modified to use 8 wheels spinning with the help of two banebots with 5:1 gearboxes. The wheels are set up such that there are two rows of wheels on either side of the guiding rail and each wheel has been doubled (refer to image). The wheels on either side of the guiding rail are connected to each other and the motors using gears that have been aligned and stabilized using c-channels and flat bearings. Because the game pieces are flexible, we positioned the two sets of wheels about 2.6” apart to use the pressure to increase the launching power. The ball is going to be dropped slightly behind the wheels, given that the top wheels’ center diameter will prevent the ball from falling into the correct position. Because of this, a slider crank was included in the design directly behind the launch in order to push the ball into the launch and prevent a blockage from occurring. The entire launch structure will be placed on a hinge and have a rack and pinion system to adjust the shooting angle. To compensate for the angle changing, the tube leading to the launch uses a flexible aluminum tube that will not prevent the ball from falling to the correct position.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Lancement (Neeble) </h1>\n' +
+                '        Le système de lancement est un système de lancement à volant d\'inertie standard qui a été modifié pour utiliser 8 roues tournant à l\'aide de deux banebots avec des boîtes de vitesses 5:1. Les roues sont telles qu\'il y a deux rangées de roues de chaque côté du rail de guidage et chaque roue a été doublé (voir image). Les roues de chaque côté du rail de guidage sont reliées entre elles et les moteurs au moyen de engrenages qui ont été alignés et stabilisés au moyen de Chenaux en c et de roulements plats. Parce que les pièces de jeu sont flexibles, nous avons positionné les deux ensembles de roues à environ 2,6” l\'un de l\'autre pour utiliser la pression pour augmenter la puissance de lancement. La bille va tomber légèrement derrière les roues, étant donné que le diamètre central des roues supérieures empêchera la bille de tomber dans la bonne position. Pour cette raison, une manivelle coulissante a été incluse dans la conception directement derrière le lancement afin de pousser la balle dans le lancement et d\'empêcher un blocage. Le lancement de la structure sera placé sur une charnière et un système à pignon et crémaillère à ajuster l\'angle de tir. Pour compenser le changement d\'angle, le tube menant au lancement utilise un tube flexible en aluminium qui n\'empêchera pas la bille de tomber à la bonne position.\n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="build3"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Wiring and Programming </h1>\n' +
-                '        The wiring of the robot only began once all the mechanical parts had been fully assembled. The main reasoning for this is that we decided that wiring needs to be accessible, but also safe and using our knowledge of previous years, it is clear that our design would change during the building process which could interfere with wiring. Once the robot was finished being built, we determined the perfect location on the robots main frame to place the terminal strip and cortex. From there, it was simply a game of leading the wires from the motors to the cortex and power source all while avoiding moving parts and keeping the wires safely pinned down.<br/>\n' +
-                '        Programming of the robot is quite simple because there isn\'t any super complex automation, just the colour sensor sorting is automated. Because of the sensor, the robot is programmed entirely in C using the PROS library. The main reason for using PROS is because of its good I2C support. Pros uses a port of RTOS (Real time operating system) so it’s super easy to have a separate the automation from the manual control and either part crashing won’t affect the other.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Câblage et programmation  </h1>\n' +
+                '        Le câblage du robot n\'a commencé que lorsque toutes les pièces mécaniques ont été complètement assemblées. La principale raison en est que nous avons décidé que le câblage devait être accessible, mais aussi sûr et en utilisant nos connaissances des années précédentes, il est clair que notre conception allait changer pendant le processus de construction, ce qui pourrait interférer avec le câblage. Une fois le robot terminé, nous avons déterminé l\'emplacement idéal sur le cadre principal du robot pour placer la bande terminale et le cortex. De là, il s\'agissait simplement de guider les fils depuis les moteurs jusqu\'au cortex et à la source d\'énergie, tout en évitant les pièces mobiles et en gardant les fils immobilisés en toute sécurité.<br/>\n' +
+                '\tLa programmation du robot est très simple car il n\'y a pas d\'automatisation super complexe, juste le tri des capteurs de couleur est automatisé. Grâce au capteur, le robot est entièrement programmé en C en utilisant la bibliothèque PROS. La raison principale de L\'utilisation de PROS est en raison de son bon support I2C. Le Pros utilise un port de RTOS (Real time operating system), il est donc très facile de séparer l\'automatisation du contrôle manuel et chaque pièce qui s\'écrase n\'affecte pas l\'autre. \n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="build4"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Challenges, Problems and Difficulties </h1>\n' +
-                '        From the perspective of a former member, the biggest challenge that cegep teams face is the turnover. We had a great year with mostly experienced members last year, while this year, we are mostly newcomers. The advantage to fresh minds is that they bring in new perspectives, but the downside is that creating a group dynamic that functions fluently when we’re all students with other preoccupations can be a challenge. All in all, we managed to work well as a team with what time we had together and hope to continue to grow as a team even after the competition is over.\n' +
-                '    </div>';
+                '        <h1 class="text-title"> Défis, problèmes et difficultés </h1>\n' +
+                '\tDu point de vue d\'un ancien membre, le plus grand défi auquel les équipes cégep font face est le roulement de personnel. L\'année dernière, nous avons eu une excellente année avec des membres pour la plupart expérimentés, alors que cette année, nous sommes pour la plupart des nouveaux membres. L\'avantage pour les esprits Nouveaux est qu\'ils apportent de nouvelles perspectives, mais l\'inconvénient est que la création d\'une dynamique de groupe qui fonctionne couramment lorsque nous sommes tous les étudiants avec d\'autres préoccupations peut être un défi. Dans l\'ensemble, nous avons réussi à bien travailler en équipe avec ce temps nous avons eu ensemble, et j\'espère continuer à grandir en tant qu\'équipe, même après que la compétition finie.        \n' +
+                '</div>';
         }
 
         function kiosk() {
@@ -109,38 +109,36 @@
             body.innerHTML += '<div class="kiosk1"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Why MIB? </h1>\n' +
-                '        Men in Black is a movie that originally came out in the 1997 and its popularity led to a sequel in 2002. The franchise hit a rough patch in 2012 with a movie that shall not be named. While trying to come up with themes for this year, news came out about a MIB fourth movie potentially coming out which inspired us to take hold of the opportunity to bring the theme to Vanier.<br/>\n' +
-                '        The Men in Black use very advanced technology in their underground operations in order to fight the war against invading alien races that seek to harm the Earth, while offering protection to those who come peacefully. The strong correlation between the technology in the movie and the innovative spirit of robotics seemed like a perfect fit. The franchise is well known enough to be accessible to the public while also not being a theme that has been overdone over the past few years.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> Pourquoi MIB? </h1>\n' +
+                '\t« Homme en Noir » est un film sorti en 1997. La franchise a connu une période difficile en 2012 avec un film qui ne sera pas nommé. Tout en essayant de trouver des thèmes pour cette année, les nouvelles sont sorties au sujet d\'un MIB quatrième film potentiellement sortir qui nous a inspirés à saisir l\'occasion d\'apporter le thème à Vanier.<br/>\n' +
+                '\tLes hommes en noir utilisent des technologies très avancées dans leurs opérations clandestines afin de lutter contre les envahisseurs extraterrestres qui cherchent à nuire à la Terre, tout en offrant une protection à ceux qui viennent paisiblement. La forte corrélation entre la technologie dans le film et l\'esprit innovateur de la robotique semblait comme un ajustement parfait. La franchise est assez connue pour être accessible au public tout en n\'étant pas un thème qui a été exagéré au cours des dernières années.\n' +
+                '</div>\n' +
                 '\n' +
                 '    <div class="kiosk2"></div>\n' +
                 '\n' +
                 '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> Designing the Kiosk </h1>\n' +
-                '        By unanimous vote, the final setup and design concept was the design for K’s apartment as seen in Men in Black 2. The theme is easily recognizable and the layout of the kiosk flows with the functions; the weapon room in the back is for working on the robot and the front is the living room where the presentation can begin. <br/>\n' +
-                '        Thanks to the cabinets in the weapon room, storage is directly implemented into the design and having tools stored in our artillery is coherent with the theme. The space allotted for robot maintenance is two thirds of our space while the presentation area is only one third. The technologically advanced setting is perfect for robot maintenance and having the designated space in the front for casual presentation eliminates crowding while working on the robot between rounds and gives ample room to work safely.<br/>\n' +
-                '        Initially, the doorway was going to be a screen with the wall facade painted or projected to truly capture the scene from which we were inspired. In the movie, the wall of the apartment flies up to reveal the weapon room. After brainstorming ways to get the projector screen to work well, the two main ideas were to project an image, which would have looked too fake, or painting the screen, which would likely peel off while rolling up and down. A new concept for discrete door placement was decided using sliding doors disguised as bookshelves.<br/>\n' +
-                '        The placement of screens and interactive props are appealing to the audience and add a more detail that heightens the overall aesthetic so that there is something new to see at every moment of the presentation.\n' +
-                '    </div>\n' +
+                '        <h1 class="text-title"> La conception de la Borne </h1>\n' +
+                '\tPar vote unanime, la configuration finale et le concept de design était le design de l\'appartement de K comme vu dans « Hommes en noir 2 ». Le thème est facilement reconnaissable et la disposition du kiosque s\'écoule avec les fonctions; la salle des armes à l\'arrière est pour travailler sur le robot et l\'avant est le salon où la présentation peut commencer. <br/>\n' +
+                '\tGrâce aux armoires dans la salle des armes, le rangement est directement mis en œuvre dans la conception et avoir des outils stockés dans notre artillerie est cohérent avec le thème. L\'espace alloué pour l\'entretien des robots représente les deux tiers de notre espace alors que la zone de présentation n\'en représente qu\'un tiers. Le réglage technologiquement avancé est parfait pour l\'entretien du robot et le fait d\'avoir l\'espace prévu à l\'avant pour la présentation décontractée élimine l\'encombrement tout en travaillant sur le robot entre les rondes et donne suffisamment d\'espace pour travailler en toute sécurité. <br/>\n' +
+                '\tAu départ, la porte allait être un écran avec la façade murale peinte ou projetée pour vraiment capturer la scène à partir de laquelle nous avons été inspirés. Dans le film, le mur de l\'appartement s\'envole pour révéler la salle des armes. Après un remue-méninge sur les façons de faire fonctionner l\'écran du projecteur, les deux idées principales étaient de projeter une image, qui aurait semblé trop fausse, ou de peindre l\'écran, qui se détacherait probablement en roulant vers le haut et vers le bas. Un nouveau concept pour le placement de porte discrète a été décidé en utilisant des portes coulissantes déguisées en étagères. <br/>\n' +
+                '\tLe placement des écrans et des accessoires interactifs sont attrayants pour le public et ajoutent un détail qui renforce l\'esthétique globale afin qu\'il y ait quelque chose de nouveau à voir à chaque moment de la présentation.\n' +
+                '</div>\n' +
                 '\n' +
-                '    <div class="kiosk3"></div>\n' +
+                '\t<div class="kiosk3"></div>\n' +
                 '\n' +
-                '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> The Walls </h1>\n' +
-                '        The placement of the walls followed a similar structure that has proven successful in the past: if it ain’t broke, don’t fix it! The 8’x12’ space is perfect for tool storage and robot maintenance and leaves enough from in the front for visitors to feel welcome.<br/>\n' +
-                '        This year, the walls proved to be a challenge to get redone and repainted. Due to the limited space allotted to the robotics team at Vanier during the semester, we had to be as efficient as possible and make due with what we had. We had hit a snag with the panels because they had not done before the end of the winter holidays, which greatly delayed our painting process. The main challenges were reassembling the walls correctly, determining wall placement and coordination of material pickup (because carrying 8 gallons of paint on the bus wouldn’t have been fun!). When it came to the walls, it seemed that everything that could have gone wrong went even worse than imagined!!!<br/>\n' +
-                '        However, thanks to our dedicated kiosk members who gave up their weekends to come in when there were no other students to be bothered by us painting, the whole process proved to be a success. The small repairs on the walls were done and the walls were renumbered and painted within the weeks before the competition. As stressful as the experience had been, it led to some good stories and led to a lesson learned: make the walls the year before!\n' +
-                '    </div>\n' +
+                '<div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> Les Murs </h1>\n' +
+                '\tLe placement des murs a suivi une structure similaire qui a fait ses preuves dans le passé: s\'il n\'est pas cassé, ne le réparez pas! L\'Espace 8\'x12’ est parfait pour le rangement des outils et l\'entretien des robots et laisse suffisamment de place à l\'avant pour que les visiteurs se sentent les bienvenus. <br/>\n' +
+                '\tCette année, les murs se sont avérés être un défi pour se faire refaire et repeindre. En raison de l\'espace limité alloué à L\'équipe de robotique à Vanier au cours du semestre, nous avons dû être aussi efficaces que possible et faire avec ce que nous avions. Nous avons eu un accrochage avec les panneaux parce qu\'ils n\'avaient pas été faits avant la fin des vacances d\'hiver, ce qui a grandement retardé notre processus de peinture. Les principaux défis étaient de bien assembler les murs, de déterminer l\'emplacement des murs et de coordonner le ramassage des matériaux (parce que transporter 8 gallons de peinture sur l\'autobus n\'aurait pas été amusant!). En ce qui concerne les murs, il semble que tout ce qui aurait pu mal tourner soit pire que ce qu\'on avait imaginé!!!<br/>\n' +
+                '\tCependant, grâce aux membres dévoués de notre kiosque qui ont abandonné leurs week-ends pour venir alors qu\'il n\'y avait pas d\'autres élèves à déranger par notre peinture, l\'ensemble du processus s\'est avéré un succès. Les petites réparations sur les murs et les murs ont été renuméroté et peintes dans les semaines avant la compétition. Aussi stressante que l\'expérience ait été, elle a permis de raconter de bonnes histoires et d\'en tirer une leçon: construire les murs l\'année précédente!\n' +
+                '</div>\n' +
                 '\n' +
-                '    <div class="kiosk4"></div>\n' +
+                '\t<div class="kiosk4"></div>\n' +
                 '\n' +
-                '    <div class="background-gradient gradient-orange">\n' +
-                '        <h1 class="text-title"> The Books and Props </h1>\n' +
-                '        We have bookshelves on which we will put books and other decorations. However, since the shelves are mounted so that they are easy to move, putting real books on them would make the wall too heavy. That\'s why we decided to create fake books. The structure of each book is made from recycled cardboard boxes from Vanier\'s various shops and restaurants. The boxes are then cut and assembled to look like books. Subsequently, each book is covered with a paper cover with a title and a concept. The idea of ​​including titles containing plays on words and references based on real books makes every detail of our kiosk fun to see.<br/>\n' +
-                '        In our kiosk, the various props make our presentation even more dynamic and immerses the audience in the fictitious world of VIB. To make the kiosk more realistic, we created alien weapons and accessories using materials found at home. Bottles of water, cans and plastic tubes were used to create props according to our theme. <br/>\n' +
-                '        ​We believe that the importance of an prop is not in its aesthetics, but the trials and complications that arise in building one. Whether this is due to the limited materials and tools at hand, or just a lack of experience in building one. It is inevitable that at some point something will go awry. We know firsthand in making these mistakes during the creation of a prop, as the ideas that you carefully constructed in your own thoughts are utterly decimated by the very laws of physics. Consequently, you will have to question if you’re even capable of creating an object that portrays what you want, while the accumulation of your work lies in front of your very sights to mock you. With that said, if you can learn from these mistakes and alter them to function with your piece, it will create something that looks visually distinct, but most importantly it’s something you can feel proud of.\n' +
-                '    </div>';
+                '<div class="background-gradient gradient-orange">\n' +
+                '        <h1 class="text-title"> Accessoires pour la salle des armes </h1>\n' +
+                '\tNous croyons que l\'importance d\'une hélice n\'est pas dans son esthétique, mais les difficultés et les complications qui surviennent dans le bâtiment. Que ce soit en raison du peu de matériaux et d\'outils disponibles, ou simplement d\'un manque d\'expérience dans la construction. Il est inévitable qu\'à un moment donné quelque chose tourne mal. Nous savons de première main qu\'en faisant ces erreurs lors de la création d\'un accessoire, les idées que vous avez soigneusement construites dans vos propres pensées sont complètement décimées par les lois mêmes de la physique. Par conséquent, vous aurez à vous demander si vous êtes même capable de créer un objet qui dépeint ce que vous voulez, alors que l\'accumulation de votre travail se trouve en face de vos vues mêmes de se moquer de vous. Cela dit, si vous pouvez apprendre de ces erreurs et les Modifier pour fonctionner avec votre pièce, il va créer quelque chose qui semble visuellement distinct, mais le plus important, c’est quelque chose que vous pouvez vous sentir fier.\t\n' +
+                '</div>';
         }
 
         function web() {
@@ -151,22 +149,22 @@
             body.innerHTML += '<div class="web2"></div>\n' +
                 '\n' +
                 '<div class="background-gradient gradient-orange">\n' +
-                '    <h1 class="text-title"> Initial planning </h1>\n' +
-                '    Immediately after voting for the theme, planning for the website started. Because our theme was “Men in Black” we wanted to make a fancy futuristic almost alien looking website. At first, we had planned to use fancy 3d animations and webGL content to showcase our 3d modeling skills on the website. Unfortunately, we lacked people with previous experience and the people working on the website this year did not have as much free time as previously expected. So after a few meetings and serious deliberation we decided to scale back our plans for the website to a more realistic and manageable amount of work. As such we where able to meet the deadline for the competition.\n' +
+                '    <h1 class="text-title"> Préparation initiale </h1>\n' +
+                '    Le moment après que le thème a été décidé, le travail sur le site web à commencer. Parce que notre thème était «Men in Black» on voulait créer un site web avec un à esthétique futuriste et extraterrestre. Initialement on a prévu à utiliser beaucoup d\'animation 3d et de «webGL» afin de démontrer notre maitrise de l’animation 3d. Malheureusement on manquait de membres qui savait comment faire et nos membres qui étaient prêts à apprendre avait moins de temps libre cette année. Alors après plusieurs discussions on a descendu nos attentes afin de ne pas avoir trop de travail. Grâce à cette décision, on a pu finir le site web avant la date de remise.\n' +
                 '</div>\n' +
                 '\n' +
                 '<div class="web1"></div>\n' +
                 '\n' +
                 '<div class="background-gradient gradient-orange">\n' +
-                '    <h1 class="text-title"> Implementation in Laravel </h1>\n' +
-                '    Because we had to be develop the website quickly and make it bilingual, we decided to use Laravel in order to make the website. Laravel provides a relatively easy to use and intuitive interface for managing larger websites that use a lot of CSS and PHP. It also has a languages interface, which is an important for us, as the CRC robotics competition requires our website to be bilingual. Laravel as a framework allows for efficient code reuse between the English and French versions of the website and even different pages. This prevented us from copy pasting a bunch of code and then having to change things in multiple places afterwards.\n' +
+                '    <h1 class="text-title"> Réalisation en «Laravel» </h1>\n' +
+                '    Parce qu\'on devait développer le site web rapidement et elle devait être bilingue on a décidé d\'utiliser «Laravel». «Laravel» nous a permis de rapidement et facilement développer un site web qui utilise beaucoup d’animation visuel. «Laravel» nous a permis de rapidement et facilement développer un site web qui utilise beaucoup de code CSS and PHP. Elle a aussi une interface de langue, ce qui est important pour nous, parce qu\'on doit faire le site web en anglais et en français. «Laravel» nous a permis de réutiliser beaucoup de code entre tous les pages différent. Elle nous a permis d\'éviter de créer de bogue de copier-coller.\n' +
                 '</div>\n' +
                 '\n' +
                 '<div class="web3"></div>\n' +
                 '\n' +
                 '<div class="background-gradient gradient-orange">\n' +
-                '    <h1 class="text-title"> Structuring of content </h1>\n' +
-                '    An important but often overlooked element of any CRC robotics website is the actual content. The websites content provide important insight into the process a team put into preparing for the competition.  Contrary to popular belief, you cannot easily write all the content for the website the weekend before the deadline. Not only does this lead to a lack of proofreading and careless mistakes, it also puts undue stress on the website programmers who may also be having last minute issues of their own. As such, the contents for the website, we wrote and translated the content as we prepared for the completion in order to make everything as good as possible.\n' +
+                '    <h1 class="text-title"> Création du contenu du site web </h1>\n' +
+                '    Un élément important et souvent oublié dans la compétition robotique CRC sont les contenus du site web. Le contenu des sites web donne de l\'information d\'une valeur inestimable sur comment les équipe se prépare pour la compétition. Contraire aux croyances populaires, tu ne peux pas écrire toute l\'information pour le site web la fin de semaine avant la date de remise. Non seulement que sa réduit la qualité de l\'écriture à cause des erreurs de manque d\'attention mais ça rajoute dû stresse sur le programmeur qui a déjà ses propres problèmes. En conclusion, pour le texte sur le site web, ont écrit et traduit la contenue au fure et à mesure qu\'on se préparait afin que ça soit le meilleur possible.\n' +
                 '</div>';
         }
 

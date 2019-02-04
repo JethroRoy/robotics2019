@@ -5,33 +5,33 @@
     <div class="robot1"></div>
 
     <div class="background-gradient gradient-yellow">
-        <h1 class="text-title"> Rules (size, motors, electronics) </h1>
-        This year’s robot must be no larger than 3’x3’x3’ with no extensions, including moving parts, permitted during the heat and will be controlled using the VEXnet Joystick Remote Control (no other transmitters are permitted).<br/>
-        The maximum number of motors (aside from low voltage motors such as the VEX EDR motors) is 8; however, no more than 6 motors of the same type and no more than 4 motors of the same type and gearbox will be permitted.<br/>
-        The power source for our robot will be  two 12V, 2Ah parallel-wired lead-acid sealed batteries connected using a repurposed 12V Makita drill casing. Directly following the batteries will be a 30A fuse connected in series as well as the kill switch that will kill the 12V circuit when pushed down. Both the fuse and the kill switch will be accessible for safety reasons and ease of access.
+        <h1 class="text-title"> Règles (taille, moteurs, électronique) </h1>
+        Le robot de cette année ne doit pas dépasser 3'x3'x3’ sans les extensions, y compris les pièces mobiles, permises pendant la chaleur et sera contrôlé à l'aide de la télécommande VEXnet Joystick (aucun autre émetteur n'est autorisé).<br/>
+        Le nombre maximum de moteurs (à l'exception des moteurs basse tension tels que les moteurs VEX EDR) est de 8; toutefois, pas plus de 6 moteurs du même type et pas plus de 4 moteurs du même type et boîte de vitesses seront autorisés.<br/>
+        La source d'alimentation de notre robot sera constituée de deux batteries plomb-acide scellées 12V, 2Ah à fil parallèle et connectées à L'aide d'un boîtier Makita 12V réutilisé. Directement après les batteries seront un fusible de 30 A connecté en série ainsi que le commutateur d'arrêt qui va tuer le circuit de 12V Une fois poussé vers le bas. Le fusible et l'interrupteur d'arrêt seront accessibles pour des raisons de sécurité et de facilité d'accès.
     </div>
 
     <div class="robot2"></div>
 
     <div class="background-gradient gradient-yellow">
-        <h1 class="text-title"> Design </h1>
-        The robot’s design was devised taking into account the three main challenges of the game: the steps between levels, picking up balls and launching them. <br/><br/>
-        The drive system incorporates mecanum wheels for optimal maneuverability paired with a belt and pulley system arranged in the “climbing” tank style to overcome the steps using the tension in the belts as leverage. This system allows for the robot to easily move over the steps present on the field and be able to maneuver extremely well on the flat surfaces. The mecanum wheels allow the robot to move perfectly in order to aim precisely when shooting game pieces into the target or picking up the balls.<br/><br/>
+        <h1 class="text-title"> Conception </h1>
+        La conception du robot a été conçue en tenant compte des trois principaux défis du jeu: Les pas entre les niveaux, ramasser les balles et les lancer.<br/>
+        Le système d'entraînement incorpore des roues mecanum pour une manœuvrabilité optimale jumelée avec une courroie et un système de poulie disposés dans le style “escalade” réservoir pour surmonter les étapes en utilisant la tension dans les courroies comme levier. Ce système permet au robot de se déplacer facilement sur les étapes présentes sur le terrain et d'être capable de manœuvrer extrêmement bien sur les surfaces plates. Les roues mecanum permettent au robot de se déplacer parfaitement afin de viser précisément lors du tir des pièces de jeu dans la cible ou ramasser les balles.
     </div>
 
     <div class="robot3"></div>
 
     <div class="background-gradient gradient-yellow">
-        <h1 class="text-title"> Design (cont'd.) </h1>
-        The pickup system was positioned between the back wheels so that the clearance is ensured when climbing stairs and can therefore be placed close to the ground in order to pick up balls. It was designed to bring balls as high up as possible using a compact system that can work continuously. The zip ties attached to tank treads against a sheet of corrugated plastic was the system deemed the best to quickly and efficiently bring the playing pieces onto the robot. The pickup system feeds into a first hopper that funnels all the balls towards the sorting system equipped with an I2C sensor that will determine whether the colour of the ball corresponds to the color desired.
+        <h1 class="text-title"> Conception (suite) </h1>
+        Le système de ramassage était placé entre les roues arrière de sorte que l'espace libre soit assuré lors de la montée des escaliers et peut donc être placé près du sol afin de ramasser des balles. Il a été conçu pour amener les balles aussi haut que possible en utilisant un système compact qui peut fonctionner en continu. Les attaches à fermeture éclair fixées aux bandes de roulement de réservoir contre une feuille de plastique ondulé étaient le système jugé le mieux pour amener rapidement et efficacement les pièces de jeu sur le robot. Le système de ramassage alimente une première trémie qui achemine toutes les balles vers le système de tri équipé d'un capteur I2C qui déterminera si la couleur de la balle correspond à la couleur désirée.
     </div>
 
     <div class="robot4"></div>
 
     <div class="background-gradient gradient-yellow">
-        <h1 class="text-title"> Design (cont'd.) </h1>
-        From there, the accepted balls are dropped into a second hopper where they wait for launch. The feed into the launch uses a flexible tube that accommodates for the angle of the launch changing. The use of a vertical wheel, especially if placed on a hinge, would have eliminated a lot of vertical space on the robot and would not have made use of the horizontal space despite being less complex than the horizontal setup. In our design, we decided to sacrifice simplicity for capacity and have the main hopper be taller in order to take advantage of gravity. Thus, the launch itself is composed of two consecutive sets of two stacked wheels (8 wheels total) on either side of a guiding rail. The gap between the stacked wheels is aligned with the center of the ball to maximize the contact and allow for a stronger and more precise shot.<br/>
-        When the angle of the shooter is increased, there is a possibility that the ball will not fall in direct contact with the launch wheels, which is why the design includes a precautionary slider-crank positioned 3 inches behind the wheels and extending 2 inches in order to give the balls the extra push they need in order to reach the wheels.
+        <h1 class="text-title"> Conception (suite) </h1>
+        De là, les balles acceptées sont lâchées dans une seconde trémie où elles attendent le lancement. L'alimentation dans le lancement utilise un tube flexible qui s'adapte à l'angle de changement de lancement. L'utilisation d'une roue verticale, surtout si elle est placée sur une charnière, aurait éliminé beaucoup d'espace vertical sur le robot et n'aurait pas utilisé l'espace horizontal malgré sa complexité moindre. Dans notre conception, nous avons décidé de sacrifier la simplicité pour la capacité et avoir la trémie principale être plus grand afin de profiter de la gravité. Ainsi, le lancement lui-même est composé de deux ensembles consécutifs de deux roues empilées (8 roues au total) de chaque côté d'un rail de guidage. L'écart entre les roues empilées est aligné avec le centre de la boule pour maximiser le contact et permettre un tir plus fort et plus précis.<br/>
+        Lorsque l'angle du tireur est augmenté, il y a une possibilité que la balle ne tombera pas en contact direct avec les roues de lancement, ce qui est pourquoi la conception comprend un curseur de précaution-manivelle positionnée 3 pouces derrière les roues et l'extension de 2 pouces afin de donner aux balles la poussée supplémentaire dont ils ont besoin afin d'atteindre les roues.
     </div>
 @endsection
 

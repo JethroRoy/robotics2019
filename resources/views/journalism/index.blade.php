@@ -3,7 +3,7 @@
 
 @section('body')
 
-<div id="selector" style="width:100%;height:100%; margin-top:57px;overflow: hidden;">
+<div id="selector" onload="noscroll()" style="width:100%;height:100%; padding-top:57px;overflow: hidden;">
     <div class="journalism-build" onclick="build()">
         <div class="journalism-text">
             <div class="journalism-title">B<br/>U<br/>I<br/>L<br/>D</div>
@@ -32,10 +32,17 @@
 
 
     <script>
+
+        function noscroll() {
+            document.getElementById('body').setAttribute('style', 'overflow: hidden;height:100%;');
+        }
+
         function build() {
 
             document.getElementById("selector").innerHTML = '';
             document.getElementById("selector").removeAttribute('style');
+
+            document.getElementById('body').setAttribute('style', 'height:100%;');
 
             var body = document.getElementById('body');
             body.innerHTML += '<div class="build2"></div>\n' +
@@ -105,6 +112,8 @@
             document.getElementById("selector").innerHTML = '';
             document.getElementById("selector").removeAttribute('style');
 
+            document.getElementById('body').setAttribute('style', 'height:100%;');
+
             var body = document.getElementById('body');
             body.innerHTML += '<div class="kiosk1"></div>\n' +
                 '\n' +
@@ -147,6 +156,8 @@
             document.getElementById("selector").innerHTML = '';
             document.getElementById("selector").removeAttribute('style');
 
+            document.getElementById('body').setAttribute('style', 'height:100%;');
+
             var body = document.getElementById('body');
             body.innerHTML += '<div class="web2"></div>\n' +
                 '\n' +
@@ -173,6 +184,8 @@
         function video() {
             document.getElementById("selector").innerHTML = '';
             document.getElementById("selector").removeAttribute('style');
+
+            document.getElementById('body').setAttribute('style', 'height:100%;');
 
             var body = document.getElementById('body');
             body.innerHTML += '<div class="video1"></div>\n' +
