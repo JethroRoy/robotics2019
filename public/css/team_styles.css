@@ -11,6 +11,12 @@
     src: url(../fonts/AndroidAssassin.ttf) format("truetype");
 }
 
+body {
+    /*background-image: url('../img/teams/galaxy.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    background-color: #1b1e21;
+}
 .mib-font {
     font-family: "MIB Font", Verdana, Tahoma;
 }
@@ -119,6 +125,7 @@
 
 #panel-image {
     width: 95%;
+    height: 35%;
     margin-top: 20%;
     border-radius: 50%;
 }
